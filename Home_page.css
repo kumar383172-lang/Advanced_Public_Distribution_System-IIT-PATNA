@@ -1,0 +1,97 @@
+/****************************************************** HOME PAGE CSS **************************************************/
+
+*{
+    margin: 0%;
+    
+}
+
+.hed{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(34, 128, 200);
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+.A{
+    margin-left: 10px;
+}
+
+.B{
+    margin-left: 250.5px;
+    
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.img{
+    width: 100%;
+    height: 223;
+    display: flex;
+    align-items: center;
+
+}
+
+
+a{
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    
+}
+
+a:hover{
+    background-color: rgb(218, 211, 201);
+}
+
+.intro{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right top, #58e366, #78e46c, #91e574, #a6e57d, #b7e688, #ace795, #a2e7a2, #9be6ae, #79e2c2, #5ddcd6, #51d4e6, #5dcaef);;
+    display: flex;
+
+}
+
+.updates{
+    width: 400px;
+    height:auto;
+    background-color:gainsboro;
+    margin-left: 178px;
+    padding-left: 10PX;
+    text-transform: uppercase;
+}
+
+#h2{
+    text-decoration: underline;
+}
+
+
+
+#video{
+    width: 100%;
+    height: 400px;
+    background-color: aliceblue;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right top, #e2d966, #e1d571, #e0d27c, #ddce87, #dacb91)
+}
+

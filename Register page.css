@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.color{
+    background-color: rgb(34, 128, 200);
+    border-width: 0px;
+}
+
+.header{
+    width: auto;
+    height: 230px;
+    background-color: rgb(34, 128, 200);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+
+}
+
+.header div{
+    padding-bottom: 8px;
+}
+
+.back{
+    background-color: white;
+    border-width: 5px;
+    border-color: rgb(31, 65, 215);
+}
+
+.form{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+/*#F1{
+    text-align: center;
+    text-decoration:solid;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: rgb(237, 142, 142);
+    border: none;
+}*/
+
+#Adhaar{
+    padding-left: 115px;
+}
+
+#Adhaar input{
+    width: 180px;
+    height: 19px;
+}
+
+#name{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-right: 180px;
+    padding-left: 115px;
+    flex-wrap: wrap;
+
+}
+
+#name input{
+    width: 180px;
+    height: 19px;
+    
+}
+
+#name select{
+    width: 187px;
+    height: 25px;
+}
+
+#Adhaar select{
+
+    width: 187px;
+    height: 25px;
+
+}
+/*#dob{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}*/
+
+#RC {
+    
+    margin-top: 5px;
+    padding-left: 115px;
+    display: flex;
+    align-items:center;
+
+}
+
+#radio{
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.income{
+
+    display: flex;
+    align-items: center;
+       
+}
+
+.income div{
+    padding-right: 180px;
+    padding-left: 80px;
+}
+
+
+#Documents div{
+
+    padding-left: 115px;
+    align-items: center;
+    
+}
+
+
+#Documents input{
+
+    height: 22px;
+    padding-left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.background{
+    margin: 0px;
+}
